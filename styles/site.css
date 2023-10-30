@@ -205,13 +205,19 @@ blockquote {
 }
 
 /* Interactivity */
-
+.hidden {
+  display: none;
+}
 
 /* Cookie Banner */
 
 .banner {
   display: flex;
   align-items: center;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
 
   background: #fdd25c;
   box-shadow: 0 0 5px 1px #0000004d;
